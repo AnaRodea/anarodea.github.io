@@ -1,0 +1,141 @@
+/* .contenido2 {
+   display: block;
+   position: absolute;
+   right: -150px;
+} */
+
+/*Encabezado*/
+header {
+  height: 150px;
+  width: auto;
+  background-color: #ff01c1;
+}
+
+.encabezado {
+  float: left;
+  height: 150px;
+  width: auto;}
+
+h1 {
+  font-size: 40px;
+  color: Black
+}
+
+
+/* Navigaton Bar */
+#navbar {
+  overflow: visible;
+  background-color: #333
+  }
+/* Dropdown Buttons */
+/* .dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+} */
+
+.openbtn
+{
+  background-color: #333;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.openbtn:hover
+{
+  background-color: #9033ff;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: #333;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  }
+
+/*El contenido del dropright menu oculto por defecto*/
+.contenido {
+   display: none;
+   position: relative;
+   right: -150px
+}
+
+.contenido3 {
+   display: none;
+   position: relative;
+   right: -150px
+}
+
+.hijo:hover+.contenido{
+  display:block;
+}
+
+.hijo2:hover+.contenido2{
+  display:block;
+}
+.hijo3:hover+.contenido3{
+  display:block;
+}
+
+/* Buttons inside the dropdown menu */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+body {
+  /* background-image: url(995891.jpg); */
+  background-color: black;
+  /* padding: 20px; */
+  font-family: Arial;
+  }
+
+.main {
+  /* max-width: 1000px; */
+  /* margin: auto; */
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+.flex {
+  width:  100%;
+  height: auto;
+}
+/*atributos de la tabla*/
+#dos {
+  display: none;
+}
+
+#uno:hover+#dos
+{
+  display:block;
+}
+/* font-color: #27b5c0  azulrickandmorty*/
